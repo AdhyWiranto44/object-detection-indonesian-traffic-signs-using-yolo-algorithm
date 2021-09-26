@@ -56,6 +56,7 @@ Dataset dibagi menjadi Dataset Training (70%) dan Dataset Testing (30%)
 - YOLOv4
 - Python & PIP
 - openCV
+- Google Colab
 
 ## TERMINOLOGI
 ### Object Detection
@@ -77,30 +78,26 @@ You Only Look Once atau YOLO adalah salah satu algoritma untuk Pendeteksian Obje
 3. Neck
 4. Dense Prediction
 
-
-## IMPLEMENTASI
-### Persiapan Dataset
-
-
-### Pemberian Label
-
-
-### Persiapan Pelatihan Dataset
-
-
-### Pelatihan Dataset
-
-
-## HASIL
-
+## HASIL PELATIHAN
+Proses pelatihan yang dilakukan memakan waktu -+ 70 jam dengan mAP (mean Average Precision) sebagai berikut:
+[ tampilkan tabel mAP ]
 
 ## PENGUJIAN HASIL TRAINING
+### Dengan Gambar
+[ tampilkan gambar hasil pendeteksian dlm bentuk kolega ]
 
+### Dengan Video
+[ link ke video di YouTube ]
+[ tampilkan cuplikan video dalam bentuk GIF ]
 
 ## PENUTUP
+### Kesimpulan
+
+
+### Saran
 
 
 ## LAINNYA
-
+- [ link download dataset ]
 
 ## CREDITS
