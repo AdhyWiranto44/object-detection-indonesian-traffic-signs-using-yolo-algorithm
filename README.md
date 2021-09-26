@@ -80,7 +80,8 @@ You Only Look Once atau YOLO adalah salah satu algoritma untuk Pendeteksian Obje
 
 ## HASIL PELATIHAN
 Proses pelatihan yang dilakukan memakan waktu -+ 70 jam dengan mAP (mean Average Precision) sebagai berikut:
-![yolov4-vs-yolov3](yolov4-vs-yolov3.png)
+![mAP](mAP.jpg)
+best batch adalah hasil pelatihan terbaik dari semua iterasi pelatihan (sekitar 40000 iterasi)
 
 ## PENGUJIAN HASIL TRAINING
 ### Dengan Gambar
