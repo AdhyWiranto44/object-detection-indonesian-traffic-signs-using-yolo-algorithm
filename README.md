@@ -1,7 +1,7 @@
 # Pendeteksian Objek Dataset Rambu Lalu Lintas Indonesia menggunakan Algoritma Deep Learning YOLO (You Only Look Once)
 
 # Daftar Isi
-- [Perkenalan](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#perkenalan)
+- [Perkenalan](#perkenalan)
 - [Abstrak](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#abstrak)
 - [Rambu Lalu Lintas](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#rambu-lalu-lintas)
   - [Bentuk Dataset](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#bentuk-dataset)
