@@ -1,7 +1,7 @@
 # Pendeteksian Objek Dataset Rambu Lalu Lintas Indonesia menggunakan Algoritma Deep Learning YOLO (You Only Look Once)
 
 # Daftar Isi
-- [Perkenalan](#perkenalan)
+- [Tujuan](#tujuan)
 - [Abstrak](#abstrak)
 - [Rambu Lalu Lintas](#rambu-lalu-lintas)
   - [Bentuk Dataset](#bentuk-dataset)
@@ -21,7 +21,7 @@
 - [Lainnya](#lainnya)
 - [Credits](#credits)
 
-## PERKENALAN
+## TUJUAN
 Untuk mewujudkan implementasi Computer Vision di Indonesia khususnya dalam penelitian Autonomous Vehicle dibutuhkan kontribusi dalam berbagai aspek. Salah satu kontribusi yang dilakukan pada penelitian ini adalah pengumpulan dataset rambu lalu lintas di Indonesia yang dapat dimanfaatkan untuk pendeteksian rambu lalu lintas di Indonesia. Dari pengumpulan dataset tersebut akan dibuatkan model Deep Learning-nya lalu diimplementasikan menggunakan salah satu algoritma Deep Learning YOLOv4 (You Only Look Once versi 4) untuk pendeteksian objek rambu lalu lintas yang ada di Indonesia.
 
 - [Paper](paper_id.pdf)
