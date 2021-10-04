@@ -1,5 +1,8 @@
 # Pendeteksian Objek Dataset Rambu Lalu Lintas Indonesia menggunakan Algoritma Deep Learning YOLO (You Only Look Once)
 
+## PERKENALAN
+Untuk mewujudkan implementasi Computer Vision di Indonesia khususnya dalam penelitian Autonomous Vehicle dibutuhkan kontribusi dalam berbagai aspek. Salah satu kontribusi yang dilakukan pada penelitian ini adalah pengumpulan dataset rambu lalu lintas di Indonesia yang dapat dimanfaatkan untuk pendeteksian rambu lalu lintas di Indonesia. Dari pengumpulan dataset tersebut akan dibuatkan model Deep Learning-nya lalu diimplementasikan menggunakan salah satu algoritma Deep Learning YOLOv4 (You Only Look Once versi 4) untuk pendeteksian objek rambu lalu lintas yang ada di Indonesia.
+
 ## ABSTRAK
 Autonomous Vehicle adalah kendaraan yang dapat berfungsi sebagaimana kendaraan pada umumnya namun dengan kemampuan otomatisasi, salah satu kemampuan tersebut adalah mampu mendeteksi rambu lalu lintas yang ada di sekitarnya. Untuk dapat menjalankan kemampuannya tersebut pustaka dataset diperlukan dalam pendeteksian objek rambu lalu lintas khususnya dalam penelitian ini adalah yang ada di Indonesia. Penelitian ini bertujuan untuk pembangunan model Deep Learning menggunakan dataset rambu lalu lintas khas Indonesia yang akan dikumpulkan dan selanjutnya diteliti menggunakan salah satu algoritma Deep Learning yang khusus untuk pendeteksian objek secara realtime. 
 
@@ -9,9 +12,6 @@ Pendeteksian objek menghasilkan akurasi model sebesar 95.63%, model ini digunaka
 
 Kata kunci: Object Detection, Deep Learning, YOLO (You Only Look Once), CNN (Convolutional
 Neural Network), Rambu Lalu Lintas
-
-## PERKENALAN
-Untuk mewujudkan implementasi Computer Vision di Indonesia khususnya dalam penelitian Autonomous Vehicle dibutuhkan kontribusi dalam berbagai aspek. Salah satu kontribusi yang dilakukan pada penelitian ini adalah pengumpulan dataset rambu lalu lintas di Indonesia yang dapat dimanfaatkan untuk pendeteksian rambu lalu lintas di Indonesia. Dari pengumpulan dataset tersebut akan dibuatkan model Deep Learning-nya lalu diimplementasikan menggunakan salah satu algoritma Deep Learning YOLO (You Only Look Once) untuk pendeteksian objek rambu lalu lintas yang ada di Indonesia.
 
 Sejauh yang diamati, belum ada pustaka dataset yang menyediakan dataset rambu lalu lintas di Indonesia secara komprehensif, hal ini merupakan alasan mengapa penelitian ini dilakukan.
 
@@ -80,35 +80,40 @@ You Only Look Once atau YOLO adalah salah satu algoritma untuk Pendeteksian Obje
 
 ## HASIL PELATIHAN
 Proses pelatihan yang dilakukan memakan waktu -+ 70 jam dengan mAP (mean Average Precision) sebagai berikut:
-![mAP](mAP.jpg)
-best batch adalah hasil pelatihan terbaik dari semua iterasi pelatihan (sekitar 40000 iterasi)
+- ![mAP](mAP.jpg)
+- Keterangan: best batch adalah hasil pelatihan terbaik dari semua iterasi pelatihan (sekitar 40000 iterasi)
 
 ## PENGUJIAN HASIL TRAINING
 ### Dengan Gambar
 Hasil:
-![lampu-isyarat](lampu-isyarat.png)
-![rambu-larangan](rambu-larangan.png)
+- ![lampu-isyarat](lampu-isyarat.png)
+- ![rambu-larangan](rambu-larangan.png)
 
 Lainnya:
-[rambu-pemberitahuan](rambu-pemberitahuan.png),
-[rambu-peringatan](rambu-peringatan.png),
-[rambu-perintah](rambu-perintah.png)
+- [rambu-pemberitahuan](rambu-pemberitahuan.png)
+- [rambu-peringatan](rambu-peringatan.png)
+- [rambu-perintah](rambu-perintah.png)
 
 ### Dengan Video
 Hasil:
-[vid-terdeteksi-1](vid-terdeteksi-1.gif),
-[vid-terdeteksi-2](vid-terdeteksi-2.gif)
+![vid-terdeteksi-2](vid-terdeteksi-2.gif)
 
-## PENUTUP
-### Kesimpulan
-
-
-### Saran
+Lainnya:
+[vid-terdeteksi-1](vid-terdeteksi-1.gif)
 
 
 ## LAINNYA
 Link dataset:
-[Training](https://drive.google.com/file/d/10y9pXLEsUm0lzDrugF5HB21aw71kuAZ0/view?usp=sharing)
-[Testing](https://drive.google.com/file/d/1xkNUHyhiVNhCu5BpclJ9vCJ1LSzvSzpk/view?usp=sharing)
+- [Training](https://drive.google.com/file/d/10y9pXLEsUm0lzDrugF5HB21aw71kuAZ0/view?usp=sharing)
+- [Testing](https://drive.google.com/file/d/1xkNUHyhiVNhCu5BpclJ9vCJ1LSzvSzpk/view?usp=sharing)
+
+Model Deep Learning:
+[Disini](https://drive.google.com/file/d/1kE1nW5ov4H__mikS-gYFfzhCK_byKBv0/view?usp=sharing)
+
 
 ## CREDITS
+- [Framework](https://github.com/AlexeyAB/darknet)
+- [Kode sumber](https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial)
+- [Mapillary](https://www.mapillary.com/)
+- Google Images
+- Google Maps
