@@ -101,7 +101,8 @@ Hasil:
 ![vid-terdeteksi-2](vid-terdeteksi-2.gif)
 
 Lainnya:
-[vid-terdeteksi-1](vid-terdeteksi-1.gif)
+- [Demo](https://youtu.be/ZndeLSH5VeA)
+- [vid-terdeteksi-1](vid-terdeteksi-1.gif)
 
 
 ## LAINNYA
