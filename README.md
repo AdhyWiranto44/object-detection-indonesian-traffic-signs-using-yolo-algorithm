@@ -1,10 +1,31 @@
 # Pendeteksian Objek Dataset Rambu Lalu Lintas Indonesia menggunakan Algoritma Deep Learning YOLO (You Only Look Once)
 
+# Daftar Isi
+- [Perkenalan](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#perkenalan)
+- [Abstrak](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#abstrak)
+- [Rambu Lalu Lintas](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#rambu-lalu-lintas)
+  - [Bentuk Dataset](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#bentuk-dataset)
+  - [Jumlah Rambu](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#jumlah-rambu)
+- [Jumlah Total Dataset](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#jumlah-total-dataset)
+- [Pembagian Dataset](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#pembagian-dataset)
+- [Tools](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#tools)
+- [Terminologi](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#terminologi)
+  - [Object Detection](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#object-detection)
+  - [Deep Learning](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#deep-learning)
+  - [Convolutional Neural Network](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#convolutional-neural-network)
+  - [You Only look Once](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#you-only-look-once)
+- [Hasil Penelitian](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#hasil-pelatihan)
+- [Pengujian Hasil Training](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#pengujian-hasil-training)
+  - [Dengan Gambar](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#dengan-gambar)
+  - [Dengan Video](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#dengan-video)
+- [Lainnya](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#lainnya)
+- [Credits](https://github.com/AdhyWiranto44/object-detection-indonesian-traffic-signs-using-yolo-algorithm#credits)
+
 ## PERKENALAN
 Untuk mewujudkan implementasi Computer Vision di Indonesia khususnya dalam penelitian Autonomous Vehicle dibutuhkan kontribusi dalam berbagai aspek. Salah satu kontribusi yang dilakukan pada penelitian ini adalah pengumpulan dataset rambu lalu lintas di Indonesia yang dapat dimanfaatkan untuk pendeteksian rambu lalu lintas di Indonesia. Dari pengumpulan dataset tersebut akan dibuatkan model Deep Learning-nya lalu diimplementasikan menggunakan salah satu algoritma Deep Learning YOLOv4 (You Only Look Once versi 4) untuk pendeteksian objek rambu lalu lintas yang ada di Indonesia.
 
-[Paper](paper_id.pdf)
-[Demo Implementasi](https://youtu.be/ZndeLSH5VeA)
+- [Paper](paper_id.pdf)
+- [Demo Implementasi](https://youtu.be/ZndeLSH5VeA)
 
 ## ABSTRAK
 Autonomous Vehicle adalah kendaraan yang dapat berfungsi sebagaimana kendaraan pada umumnya namun dengan kemampuan otomatisasi, salah satu kemampuan tersebut adalah mampu mendeteksi rambu lalu lintas yang ada di sekitarnya. Untuk dapat menjalankan kemampuannya tersebut pustaka dataset diperlukan dalam pendeteksian objek rambu lalu lintas khususnya dalam penelitian ini adalah yang ada di Indonesia. Penelitian ini bertujuan untuk pembangunan model Deep Learning menggunakan dataset rambu lalu lintas khas Indonesia yang akan dikumpulkan dan selanjutnya diteliti menggunakan salah satu algoritma Deep Learning yang khusus untuk pendeteksian objek secara realtime. 
@@ -48,7 +69,7 @@ Jumlah rambu lalu lintas yang diteliti adalah sebanyak 21 jenis, yaitu:
   20. Lampu Kuning
   21. Lampu Hijau
 
-### Jumlah total dataset
+### Jumlah Total Dataset
 Total dataset yang dikumpulkan untuk semua jenis rambu adalah sebanyak 2100 buah
 
 ### Pembagian Dataset
