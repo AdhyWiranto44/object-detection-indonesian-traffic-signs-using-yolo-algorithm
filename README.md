@@ -141,3 +141,10 @@ Model Deep Learning:
 - [Mapillary](https://www.mapillary.com/)
 - Google Images
 - Google Maps
+
+## REFERENCES
+- [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/pdf/2004.10934.pdf)
+- [Speed Traffic Sign Detection on the CARLA simulator using
+YOLO](https://repositori.upf.edu/bitstream/handle/10230/42548/Sanchez_2019.pdf)
+- [A Real-Time Chinese Traffic
+Sign Detection Algoritm Based on Modified YOLOv2](https://www.researchgate.net/publication/321117701_A_Real-Time_Chinese_Traffic_Sign_Detection_Algorithm_Based_on_Modified_YOLOv2)
