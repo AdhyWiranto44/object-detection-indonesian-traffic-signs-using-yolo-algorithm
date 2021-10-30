@@ -2,9 +2,6 @@
 
 - [Paper](paper_id.pdf)
 - [Demo Implementasi](https://youtu.be/ZndeLSH5VeA)
-<p align="center">
-  <iframe width="560" height="315" src="https://youtu.be/ZndeLSH5VeA" title="Demo Implementasi"></iframe>
-</p>
 
 # Daftar Isi
 - [Tujuan](#tujuan)
